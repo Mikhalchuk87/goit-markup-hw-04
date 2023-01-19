@@ -156,7 +156,7 @@ letter-spacing: 0.02em;
 color: var(--text-color);
 }
 .contact-pfone:hover,
-.contact-pfone:focus { color: #404BBF;}
+.contact-pfone:focus { color: var(--Pressed-state);}
 /* ---------------------------------------HERO--------------------------------------- */
 .hero {
     background: var(--subtitle-color);
