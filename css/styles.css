@@ -4,11 +4,12 @@
     --text-color: #434455;
     --accent-color: #4D5AE5;
     --Pressed-state:#404BBF;
+    --background-color:#FFFFFF;
     --font-more: 'Raleway', sans-serif;
     --font-main: 'roboto', sans-serif;
     --gradient: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7));
 }
-body {background-color: #FFFFFF;
+body {background-color: var(--background-color);
 font-family: var(--font-main);
 font-weight: 400;
 font-size: 16px;
@@ -182,14 +183,14 @@ font-size: 56px;
 line-height: 1.07;
 text-align: center;
 letter-spacing: 0.02em;
-color: #FFFFFF;
+color: var(--background-color);
 margin-bottom: 48px;
 
 }
 .type-button {
 display: flex;
 align-items: center;
-color: #FFFFFF;
+color: var(--background-color);
 background: var(--accent-color);
 flex-direction: row;
 padding: 16px 32px 16px 32px;
@@ -294,7 +295,7 @@ margin-bottom: 72px;
     width: calc((100% - (24*3)) / 4);
 } 
 .team-item{
-    background-color: #FFFFFF;
+    background-color: var(--background-color);
 }
 .team-div{
     padding-bottom: 32px;
@@ -427,7 +428,7 @@ font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-color: #FFFFFF;
+color: var(--background-color);
 margin-bottom: 16px;
 }
 .footer-list {
@@ -482,8 +483,8 @@ flex-grow: 0;}
 
 .btn:hover,
 .btn:focus
-{color: #FFFFFF;
-background: #404BBF;
+{color:var(--background-color);
+background: var(--Pressed-state);
 }
 /* .portfolio-flex{
 } */
@@ -529,7 +530,7 @@ font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-color: #FFFFFF;
+color: var(--background-color);
 }
 .footer-list {
     display: flex;
